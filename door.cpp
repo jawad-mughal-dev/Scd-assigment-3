@@ -10,7 +10,10 @@ public:
 	void openDoor(){
 		isOpen = true;
 	}
-	void closeDoor();
+	void closeDoor(){
+		isOpen = false;
+		isClose = true;
+	}
 	void lockDoor();
 	void unlockDoor();
 	bool isDoorOpen()const;
