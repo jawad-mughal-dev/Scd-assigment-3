@@ -9,11 +9,15 @@ public:
  	Door();
 	void openDoor();
 	void closeDoor();
-	void lockDoor();
+	void lockDoor()
+	{
+		cout<<"Door is locked\n"<<endl;
+	}
 	void unlockDoor();
 	bool isDoorOpen()const;
 	bool isDoorClose()const;
 };
+
 
 int main()
 {
