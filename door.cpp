@@ -7,11 +7,20 @@ private:
 	bool isClose;
 public:
  	Door();
+
 	void openDoor();
 	void closeDoor();
 	void lockDoor()
 	{
 		cout<<"Door is locked\n"<<endl;
+	}
+
+	void openDoor(){
+		isOpen = true;
+	}
+	void closeDoor(){
+		isOpen = false;
+		isClose = true;
 	}
 	void unlockDoor();
 	bool isDoorOpen()const;
