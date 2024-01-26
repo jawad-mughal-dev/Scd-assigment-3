@@ -40,7 +40,16 @@ public:
 
 int main()
 {
-	
+	 Door myDoor;
+	 myDoor.closeDoor();
+  	 cout << "Is the door open? " << (myDoor.isDoorOpen() ? "Yes" : "No") << endl;
+   	 myDoor.lockDoor();
+    	 myDoor.unlockDoor();
+
+	 cout << "Is the door open? " << (myDoor.isDoorOpen() ? "Yes" : "No") << endl;
+
+         myDoor.openDoor();
+         cout << "Is the door open? " << (myDoor.isDoorOpen() ? "Yes" : "No") << endl;
 
 	return 0;
 }
