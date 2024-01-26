@@ -32,6 +32,7 @@ public:
 	}
 	bool isDoorClose()const
 	{
+		cout << "is doof is implemented " ;
 		return isClose;
 	}
 };
