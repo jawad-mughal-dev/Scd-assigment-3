@@ -22,7 +22,10 @@ public:
 		isOpen = false;
 		isClose = true;
 	}
-	void unlockDoor();
+	void unlockDoor()
+	{
+		cout<<"Door is unlocked...\n"<<endl;
+	}
 	bool isDoorOpen()const;
 	bool isDoorClose()const;
 };
