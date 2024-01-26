@@ -26,7 +26,10 @@ public:
 	{
 		cout<<"Door is unlocked...\n"<<endl;
 	}
-	bool isDoorOpen()const;
+	bool isDoorOpen()const
+	{
+		return isOpen;
+	}
 	bool isDoorClose()const;
 };
 
