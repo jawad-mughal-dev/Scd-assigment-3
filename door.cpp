@@ -30,7 +30,10 @@ public:
 	{
 		return isOpen;
 	}
-	bool isDoorClose()const;
+	bool isDoorClose()const
+	{
+		return isClose;
+	}
 };
 
 
